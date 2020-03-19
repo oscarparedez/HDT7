@@ -8,7 +8,7 @@ public class BinaryTree {
 	
 	
 	private String path = System.getProperty("user.dir");
-	private File file = new File(path+"/src/dictionary.txt");
+	private File file = new File(path+"\\dictionary.txt");
 	
 	public Map<String, String> importText(Map<String, String> hash) {
 		try {
